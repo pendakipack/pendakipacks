@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/foto/loglih.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/foto/logolih.png">
+<link rel="shortcut icon" href="assets/foto/logolih.png">
+    <title>PendakiPack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600;700;800&family=Poppins:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="logo">PendakiPack</a>
+       <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#catalog">Catalog</a></li>
+    <li><a href="#faq">T&C</a></li>
+    <li><a href="#testimonial">Testimonial</a></li>
+    
+</ul>
+    </nav>
+
+
+<!-- Hero Section -->
+<section class="hero" id="heroSection">
+    <div class="hero-slides-container" id="heroSlidesContainer">
+        <div class="hero-slide">
+            <img src="assets/foto/makan.jpg" alt="Camping Experience">
+        </div>
+        <div class="hero-slide">
+            <img src="assets/foto/tendak.jpg" alt="Hiking Adventure">
+        </div>
+        <div class="hero-slide">
+            <img src="assets/foto/kedua.jpg" alt="Mountain View">
+        </div>
+    </div>
+    
+    <div class="hero-dots" id="heroDots"></div>
+</section>
+
+    <!-- Tagline Section -->
+    <section class="tagline" id="about">
+        <p class="tagline-text">Tempat Sewa Gear Outdoor Terawat, Bersih, dan Steril.</p>
+    </section>
+
+    <!-- Content Section -->
+    <section class="content-section" >
+        <div class="content-left">
+            <div>
+                <h2 class="content-title">Get to Know Pendaki Pack Your Outdoor Gear Partner.</h2>
+                <p class="content-description">Pendaki Pack adalah penyedia penyewaan perlengkapan outdoor di Surabaya dengan perlengkapan mendaki dan camping yang terawat, aman, dan nyaman untuk perjalanan yang praktis dan hemat.
+
+</p>
+            </div>
+            <button class="btn-map">Chat Now</button>
+            
+        </div>
+        <div class="content-right">
+           <img src="assets/foto/utama.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- The Selection Section -->
+    <section class="selection-section" id="catalog">
+        <h2 class="selection-title">THE SELECTION</h2>
+        
+        <div class="selection-tabs">
+            <button class="tab-btn active" data-tab="personal">PRIBADI </button>
+            <button class="tab-btn" data-tab="tent">TENDA </button>
+            <button class="tab-btn" data-tab="tools">TAS GUNUNG</button>
+            <button class="tab-btn" data-tab="light">PENERANGAN</button>
+            <button class="tab-btn" data-tab="cook">PERALATAN MASAK</button>
+            <button class="tab-btn" data-tab="elektronik">ELEKTRONIK</button>
+            <button class="tab-btn" data-tab="jual">DIJUAL</button>
+        </div>
+
+        <div class="products-grid" id="products-grid">
+        </div>
+    </section>
+<!-- Terms & Condition Section -->
+    <section class="terms-section" id="faq">
+        <h2 class="terms-title">TERMS & CONDITION</h2>
+        
+        <div class="terms-container">
+            <div class="term-item">
+                <div class="term-header" data-term="jaminan">
+                    <span class="term-name">Jaminan Sewa</span>
+                    <svg class="term-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7 10L12 15L17 10" stroke="#3A3734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="term-content" id="jaminan">
+                    <ul>
+                        <li>Wajib bawa KTP atau SIM yang masih berlaku (pilih salah satu).</li>
+                        <li>Kartu pelajar / mahasiswa tidak berlaku, kecuali disertai KTP orang tua/saudara.</li>
+                        <li>Jika penyewa di bawah umur, wajib ditemani orang tua saat pengambilan barang.</li>
+                        <li>Pengambil barang harus sama dengan pemilik identitas.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="term-item">
+                <div class="term-header" data-term="booking">
+                    <span class="term-name">Booking</span>
+                       <svg class="term-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7 10L12 15L17 10" stroke="#3A3734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="term-content" id="booking">
+                    <ul>
+                        <li>Disarankan booking untuk menghindari kehabisan stok.</li>
+                        <li>DP minimal 50% dari total sewa.</li>
+                        <li>Pembatalan H-2: refund penuh.</li>
+                        <li>Pembatalan H-1 atau hari H: DP hangus.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="term-item">
+                <div class="term-header" data-term="durasi">
+                    <span class="term-name">Durasi & Waktu Sewa</span>
+                       <svg class="term-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7 10L12 15L17 10" stroke="#3A3734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="term-content" id="durasi">
+                    <ul>
+                        <li>Minimal sewa 1 - 2 hari.</li>
+                        <li>Jam operasional 16.00-22.00.</li>
+                        <li>Perhitungan sewa per hari kalender, tidak terikat 24 jam.</li>
+                        <li>Lewat jam tutup dihitung tambah 1 hari.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="term-item">
+                <div class="term-header" data-term="pengambilan">
+                    <span class="term-name">Pengambilan & Pengembalian</span>
+                      <svg class="term-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7 10L12 15L17 10" stroke="#3A3734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="term-content" id="pengambilan">
+                    <ul>
+                        <li>Barang bisa diambil dan dikembalikan kapan saja sesuai jam operasional.</li>
+                        <li>Tidak melayani di luar jam operasional.</li>
+                        <li>Barang yang sudah keluar tetap dihitung sewa meskipun tidak dipakai.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="term-item">
+                <div class="term-header" data-term="kerusakan">
+                    <span class="term-name">Kerusakan & Kehilangan</span>
+                       <svg class="term-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M7 10L12 15L17 10" stroke="#3A3734" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <div class="term-content" id="kerusakan">
+                    <ul>
+                        <li>Semua kerusakan dan kehilangan menjadi tanggung jawab penyewa.</li>
+                        <li>Kerusakan ringan: ganti biaya perbaikan.</li>
+                        <li>Kerusakan berat atau hilang: ganti harga beli atau barang sejenis.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Modal Pop-up -->
+    <div class="modal-overlay" id="productModal">
+        <div class="modal-content" id="modalContent">
+            <div class="modal-left">
+                <img src="" alt="" id="modalImage">
+            </div>
+            <div class="modal-right">
+                <div>
+                    <h2 class="modal-title" id="modalTitle"></h2>
+                    <p class="modal-description" id="modalDescription"></p>
+                    <div class="modal-divider"></div>
+                    <div class="modal-pricing" id="modalPricing"></div>
+                </div>
+                <a href="#" class="modal-button" id="modalButton" target="_blank">Book Now</a>
+            </div>
+        </div>
+    </div>
+    <!-- Trusted Client Section -->
+
+<section class="trusted-client-section" id="testimonial">
+    <h2 class="trusted-client-title">WHAT OUR CLIENTS SAY</h2>
+ 
+    <!-- Wrapper untuk kontrol spacing -->
+    <div class="elfsight-wrapper">
+
+<!-- Elfsight Google Reviews | Untitled Google Reviews -->
+<script src="https://elfsightcdn.com/platform.js" async></script>
+<div class="elfsight-app-c17ef554-8ecb-4772-a2ba-1d43a5f4c8dd" data-elfsight-app-lazy></div>
+    </div>
+</section>
+
+<!-- Link ke JavaScript -->
+<script src="trusted-client.js"></script>
+
+    <!-- Location Map Section -->
+    <section class="location-section">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.2502613668857!2d112.76304831526485!3d-7.275076472967515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb2a9e3fecaf%3A0xa4cd619aec0dc1d8!2sPendakiPack%20(Persewaan%20Alat%20Outdoor)!5e0!3m2!1sen!2sid!4v1706342400000!5m2!1sen!2sid" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+<footer class="footer">
+    <div class="footer-content">
+        <a href="#" class="footer-logo">PendakiPack</a>
+        
+        <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#catalog">Catalog</a></li>
+            <li><a href="#faq">T&C</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+        </ul>
+        
+        <div class="footer-social">
+            <a href="https://www.instagram.com/pendakipack/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <rect x="2" y="2" width="20" height="20" rx="5" stroke="white" stroke-width="2"/>
+                    <circle cx="12" cy="12" r="4" stroke="white" stroke-width="2"/>
+                    <circle cx="18" cy="6" r="1" fill="white"/>
+                </svg>
+            </a>
+            <a href="https://www.tiktok.com/@pendakipack" target="_blank" rel="noopener" aria-label="TikTok">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                    <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                </svg>
+            </a>
+            <a href="https://wa.me/6285117835434" target="_blank" rel="noopener" aria-label="WhatsApp">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                </svg>
+            </a>
+            <a href="https://maps.app.goo.gl/XAhu9zf24NwWjwZU8" target="_blank" rel="noopener" aria-label="Google Maps">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</footer>
+    
+
+    <script>
+        // Product data dengan deskripsi dan pricing lengkap
+               const products = {
+personal: [
+    { 
+        name: 'Jaket', 
+        price: 'Rp. 28.000,00', 
+        image: 'assets/products/jaketmerah.png',
+        description: 'Jaket pendakian pelindung angin dan dingin. Ukuran lengkap S–XXL, selalu dicuci dengan pewangi dan disinfektan agar tetap bersih dan nyaman.',
+        pricing: ['1 HARI = 28.000', '2 HARI = 31.000', '3 HARI = 41.000', '4 HARI = 51.000', '5 HARI = 61.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Jaket'
+    },
+    { 
+        name: 'Jaket Puffer', 
+        price: 'Rp. 30.000,00', 
+        image: 'assets/products/puffer.png',
+        description: 'Jaket puffer hangat dengan insulasi berkualitas untuk suhu dingin ekstrem. Ringan, efektif menjaga kehangatan, ukuran lengkap S–XXL, cocok untuk pendakian dan aktivitas outdoor.',
+        pricing: ['1 HARI = 30.000', '2 HARI = 38.000', '3 HARI = 48.000', '4 HARI = 58.000', '5 HARI = 68.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Puffer'
+    },
+    { 
+        name: 'Sepatu', 
+        price: 'Rp. 30.000,00', 
+        image: 'assets/products/sepatunanjak.png',
+        description: 'Sepatu hiking dengan grip kuat dan support ankle untuk langkah lebih stabil. Nyaman, tahan lama, cocok di berbagai medan, tersedia ukuran 23–29 cm.',
+        pricing: ['1 HARI = 30.000', '2 HARI = 35.000', '3 HARI = 45.000', '4 HARI = 55.000', '5 HARI = 65.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Sepatu'
+    },
+    { 
+        name: 'Gaiter', 
+        price: 'Rp. 10.000,00', 
+        image: 'assets/products/grailer.png',
+        description: 'Pelindung kaki dari air, lumpur, dan debu saat trekking. Material tahan air dengan strap yang kuat dan adjustable untuk berbagai ukuran sepatu.',
+        pricing: ['2 HARI = 10.000', '3 HARI = 13.000', '4 HARI = 16.000', '5 HARI = 19.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Gaiter'
+    },
+    { 
+        name: 'Trekking Pole', 
+        price: 'Rp. 15.000,00', 
+        image: 'assets/products/treking.png',
+        description: 'Tongkat pendakian dengan tinggi adjustable untuk mengurangi beban lutut dan meningkatkan keseimbangan di medan berat. Ringan dan mudah dilipat.',
+        pricing: ['1 HARI = 15.000', '2 HARI = 19.000', '3 HARI = 23.000', '4 HARI = 27.000', '5 HARI = 31.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Trekking%20Pole'
+    },
+    { 
+        name: 'Sleeping Bag', 
+        price: 'Rp. 15.000,00', 
+        image: 'assets/products/sleepingbag.png',
+        description: 'Kantong tidur hangat dengan bahan polar untuk menjaga suhu tubuh. Ringan, nyaman, mudah dibawa, ukuran 60 × 200 cm, cocok untuk camping di suhu dingin.',
+        pricing: ['2 HARI = 15.000', '3 HARI = 20.000', '4 HARI = 25.000', '5 HARI = 30.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Sleeping%20Bag'
+    },
+    { 
+        name: 'Matras', 
+        price: 'Rp. 6.000,00', 
+        image: 'assets/products/matras.png',
+        description: 'Matras foam untuk alas tidur yang nyaman. Ringan, mudah digulung, dan memberikan insulasi dari permukaan tanah yang dingin dan keras.',
+        pricing: ['1 HARI = 6.000', '2 HARI = 8.000', '3 HARI = 10.000', '4 HARI = 12.000', '5 HARI = 14.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Matras'
+    },
+    { 
+        name: 'Matras Alumunium 2P', 
+        price: 'Rp. 13.000,00', 
+        image: 'assets/products/aluminium.png',
+        description: 'Matras aluminium 2 orang sebagai alas penahan dingin ekstra. Ringan, praktis, nyaman, ukuran 120 × 200 cm, cocok untuk camping dan bermalam di alam terbuka.',
+        pricing: ['1 HARI = 13.000', '2 HARI = 17.000', '3 HARI = 22.000', '4 HARI = 27.000', '5 HARI = 32.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Alumunium%202P'
+    },
+    { 
+        name: 'Sarung Tangan', 
+        price: 'Rp. 10.000,00', 
+        image: 'assets/products/sarung.png',
+        description: 'Sarung tangan pendakian untuk melindungi tangan dari dingin dan lecet. Material breathable dengan grip yang kuat untuk pegangan tali dan tongkat.',
+        pricing: ['1 HARI = 10.000', '2 HARI = 15.000', '3 HARI = 20.000', '4 HARI = 25.000', '5 HARI = 30.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Sarung%20Tangan'
+    },
+    { 
+        name: 'Topi Rimba', 
+        price: 'Rp. 10.000,00', 
+        image: 'assets/products/topi.png',
+        description: 'Topi rimba dengan desain lebar untuk melindungi dari sinar matahari dan hujan. Material tahan air dengan tali pengikat di dagu untuk keamanan ekstra.',
+        pricing: ['1 HARI = 10.000', '2 HARI = 13.000', '3 HARI = 16.000', '4 HARI = 19.000', '5 HARI = 22.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Topi%20Rimba'
+    }
+],
+tent: [
+      { 
+        name: 'Tenda 2P', 
+        price: 'Rp. 41.000,00', 
+        image: 'assets/products/tendabaru.png',
+        description: 'Tenda 2 orang double layer anti-air, mudah dipasang dan aman untuk bermalam. Selalu dicek kebersihan dan kelengkapannya.',
+        pricing: ['2 HARI = 41.000', '3 HARI = 56.000', '4 HARI = 67.000', '5 HARI = 78.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Tenda%202P'
+    },
+    { 
+        name: 'Tenda 4P', 
+        price: 'Rp. 57.000,00', 
+        image: 'assets/products/tenda4p.png',
+        description: 'Tenda 4 orang double layer anti-air, mudah dipasang dan aman untuk bermalam. Selalu dicek kebersihan dan kelengkapannya.',
+        pricing: ['2 HARI = 57.000', '3 HARI = 77.000', '4 HARI = 97.000', '5 HARI = 117.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Tenda%204P'
+    },
+    { 
+        name: 'Tenda 6P', 
+        price: 'Rp. 87.000,00', 
+        image: 'assets/products/tenda6p.png',
+        description: 'Tenda 6 orang double layer anti-air, mudah dipasang dan aman untuk bermalam. Selalu dicek kebersihan dan kelengkapannya.',
+        pricing: ['2 HARI = 87.000', '3 HARI = 107.000', '4 HARI = 127.000', '5 HARI = 147.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Tenda%206P'
+    },
+    { 
+        name: 'Bivak Set', 
+        price: 'Rp. 35.000,00', 
+        image: 'assets/products/bivak.png',
+        description: 'Set bivak lengkap untuk bivak darurat dan pendakian ringan. Terdiri dari flysheet, tiang, dan tali penyangga, praktis dipasang sebagai perlindungan cepat dari cuaca.',
+        pricing: ['2 HARI = 35.000', '3 HARI = 45.000', '4 HARI = 55.000', '5 HARI = 65.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Bivak%20Set'
+    },
+    { 
+        name: 'Flysheet', 
+        price: 'Rp. 25.000,00', 
+        image: 'assets/products/flysheet.png',
+        description: 'Flysheet tambahan untuk perlindungan ekstra dari hujan dan panas. Material waterproof dengan ukuran bervariasi, bisa digunakan untuk berbagai jenis tenda.',
+        pricing: ['2 HARI = 25.000', '3 HARI = 30.000', '4 HARI = 35.000', '5 HARI = 40.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Flysheet'
+    },
+    { 
+        name: 'Tiang Flysheet', 
+        price: 'Rp. 15.000,00', 
+        image: 'assets/products/tiangfly.png',
+        description: 'Tiang flysheet adjustable dari aluminium. Ringan namun kokoh, dengan sistem locking yang mudah dan aman untuk mendirikan flysheet dengan cepat.',
+        pricing: ['2 HARI = 15.000', '3 HARI = 20.000', '4 HARI = 25.000', '5 HARI = 30.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Tiang%20Flysheet'
+    }
+],
+tools: [
+    { 
+        name: 'Tas 40 Liter', 
+        price: 'Rp. 35.000,00', 
+        image: 'assets/products/40L.png',
+        description: 'Carrier 40L untuk pendakian 1-2 hari. Dilengkapi rain cover, hip belt padding, dan kompartemen terorganisir. Nyaman dipakai dengan sistem ventilasi punggung.',
+        pricing: ['2 HARI = 35.000', '3 HARI = 50.000', '4 HARI = 60.000', '5 HARI = 70.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Tas%2040%20Liter'
+    },
+    { 
+        name: 'Tas 60 Liter', 
+        price: 'Rp. 45.000,00', 
+        image: 'assets/products/60L.png',
+        description: 'Carrier 60L untuk pendakian 3–4 hari. Nyaman digunakan, praktis, dan sudah termasuk rain cover untuk perlindungan saat hujan.',
+        pricing: ['2 HARI = 45.000', '3 HARI = 55.000', '4 HARI = 65.000', '5 HARI = 75.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Tas%2060%20Liter'
+    },
+    { 
+        name: 'Tas 80 Liter', 
+        price: 'Rp. 50.000,00', 
+        image: 'assets/products/80L.png',
+        description: 'Carrier 80L untuk ekspedisi panjang atau pendakian dengan perlengkapan lengkap. Kapasitas besar, nyaman digunakan, sudah termasuk rain cover.',
+        pricing: ['2 HARI = 50.000', '3 HARI = 70.000', '4 HARI = 80.000', '5 HARI = 90.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Tas%2080%20Liter'
+    },
+    { 
+        name: 'Hydropack', 
+        price: 'Rp. 20.000,00', 
+        image: 'assets/products/hydropack.png',
+        description: 'Hydropack praktis untuk aktivitas outdoor dan pendakian ringan. Kapasitas mulai 10 liter, ringan dan nyaman untuk membawa perlengkapan esensial.',
+        pricing: ['1 HARI = 20.000', '2 HARI = 25.000', '3 HARI = 30.000', '4 HARI = 35.000', '5 HARI = 40.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Hydropack'
+    },
+    { 
+        name: 'Daypack 10L', 
+        price: 'Rp. 17.000,00', 
+        image: 'assets/products/daypack.png',
+        description: 'Daypack ringkas 10L untuk summit attack atau day hiking. Ultralight, water resistant, dengan kompartemen essentials yang efisien.',
+        pricing: ['1 HARI = 17.000', '2 HARI = 22.000', '3 HARI = 27.000', '4 HARI = 32.000', '5 HARI = 37.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Daypack%2010L'
+    },
+    { 
+        name: 'Daypack 20L', 
+        price: 'Rp. 25.000,00', 
+        image: 'assets/products/daypack20l.png',
+        description: 'Daypack 20L serbaguna untuk hiking sehari dan aktivitas outdoor. Nyaman digunakan, praktis, sudah termasuk rain cover.',
+        pricing: ['1 HARI = 25.000', '2 HARI = 30.000', '3 HARI = 40.000', '4 HARI = 50.000', '5 HARI = 60.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Daypack%2020L'
+    }
+],
+cook: [
+    { 
+        name: 'Kompor Kotak', 
+        price: 'Rp. 10.000,00', 
+        image: 'assets/products/kompor.png',
+        description: 'Kompor portable berbahan bakar gas dengan sistem windproof. Nyala api stabil, hemat bahan bakar, dan dilengkapi case untuk penyimpanan aman.',
+        pricing: ['1 HARI = 10.000', '2 HARI = 13.000', '3 HARI = 17.000', '4 HARI = 21.000', '5 HARI = 24.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Kompor%20Kotak'
+    },
+    { 
+        name: 'Teko', 
+        price: 'Rp. 10.000,00', 
+        image: 'assets/products/teko.png',
+        description: 'Teko aluminium kapasitas 1.5 liter untuk memasak air. Ringan, tahan panas, dengan tutup yang rapat dan handle anti panas untuk keamanan.',
+        pricing: ['1 HARI = 10.000', '2 HARI = 15.000', '3 HARI = 20.000', '4 HARI = 25.000', '5 HARI = 30.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Teko'
+    },
+    { 
+        name: 'Nesting', 
+        price: 'Rp. 10.000,00', 
+        image: 'assets/products/nesting.png',
+        description: 'Set nesting cookware yang praktis dengan beberapa ukuran pot dan panci yang bisa disusun. Hemat tempat dan lengkap untuk kebutuhan memasak di gunung.',
+        pricing: ['1 HARI = 10.000', '2 HARI = 15.000', '3 HARI = 20.000', '4 HARI = 25.000', '5 HARI = 30.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Nesting'
+    },
+    { 
+        name: 'Egg Holder', 
+        price: 'Rp. 4.000,00', 
+        image: 'assets/products/eggholder.png',
+        description: 'Wadah khusus untuk membawa telur dengan aman. Material plastik tahan benturan yang melindungi telur dari pecah selama perjalanan pendakian.',
+        pricing: ['1 HARI = 4.000', '2 HARI = 6.000', '3 HARI = 8.000', '4 HARI = 10.000', '5 HARI = 12.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Egg%20Holder'
+    }
+],
+light: [
+    { 
+        name: 'Headlamp', 
+        price: 'Rp. 7.000,00', 
+        image: 'assets/products/headlamp.png',
+        description: 'Senter kepala LED multifungsi dengan mode pencahayaan beragam. Waterproof, adjustable beam, dan tali elastis yang nyaman untuk penggunaan lama.',
+        pricing: ['1 HARI = 7.000', '2 HARI = 8.000', '3 HARI = 11.000', '4 HARI = 13.000', '5 HARI = 15.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Headlamp'
+    },
+    { 
+        name: 'Lampu Tenda', 
+        price: 'Rp. 7.000,00', 
+        image: 'assets/products/lampu.png',
+        description: 'Lampu LED gantung untuk penerangan di dalam tenda. Brightness control, hook untuk digantung, dan daya tahan baterai hingga 10 jam continuous use.',
+        pricing: ['1 HARI = 7.000', '2 HARI = 8.000', '3 HARI = 11.000', '4 HARI = 13.000', '5 HARI = 15.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Lampu%20Tenda'
+    }
+],
+elektronik: [
+    { 
+        name: 'Power Bank', 
+        price: 'Rp. 15.000,00', 
+        image: 'assets/products/pbk.png',
+        description: 'Powerbank 10000mAh dengan fast charging 12W, cocok untuk iPhone dan Android. Desain slim dan ringan, praktis untuk dibawa saat aktivitas outdoor.',
+        pricing: ['1 HARI = 15.000', '2 HARI = 20.000', '3 HARI = 25.000', '4 HARI = 30.000', '5 HARI = 35.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20booking%20Power%20Bank'
+    }
+],
+jual: [
+    { 
+        name: 'Emergency Blanket', 
+        price: 'Rp. 9.000,00', 
+        image: 'assets/products/emergency.png',
+        description: 'Selimut darurat reflektif untuk menjaga suhu tubuh dalam kondisi ekstrem. Ultralight, compact, dan essential untuk survival kit pendakian.',
+        pricing: ['Rp. 9.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20membeli%20Emergency%20Blanket'
+    },
+    { 
+        name: 'Hand Warmer', 
+        price: 'Rp. 9.000,00', 
+        image: 'assets/products/handwramer.png',
+        description: 'Penghangat tangan disposable yang menghasilkan panas hingga 8 jam. Praktis untuk menjaga kehangatan tangan di suhu dingin ekstrem.',
+        pricing: ['Rp. 9.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20membeli%20Hand%20Warmer'
+    },
+    { 
+        name: 'Jas Hujan', 
+        price: 'Rp. 9.000,00', 
+        image: 'assets/products/jas.png',
+        description: 'Jas hujan ponco praktis yang bisa menutupi badan dan tas. Material waterproof, ringan, dan mudah dilipat untuk dibawa sebagai backup.',
+        pricing: ['Rp. 9.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20membeli%20Jas%20Hujan'
+    },
+    { 
+        name: 'Gas Portable', 
+        price: 'Rp. 12.000,00', 
+        image: 'assets/products/gas.png',
+        description: 'Tabung gas portable untuk kompor camping. Standar connector, isi 230gr, efisien untuk memasak 3-4 hari pendakian grup kecil.',
+        pricing: ['Rp. 12.000'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20membeli%20Gas%20Portable'
+    },
+    { 
+        name: 'Baterai', 
+        price: 'Rp. 1.000,00/pcs', 
+        image: 'assets/products/batre.png',
+        description: 'Baterai AAA untuk headlamp, lampu tenda, dan perangkat elektronik lainnya. Kualitas terjamin untuk daya tahan optimal di kondisi dingin.',
+        pricing: ['Rp. 1.000/pcs'],
+        whatsapp: 'https://wa.me/6285117835434?text=Halo,%20saya%20ingin%20membeli%20Baterai'
+    }
+]
+};
+        // Display products
+        function displayProducts(category) {
+            const grid = document.getElementById('products-grid');
+            grid.innerHTML = '';
+            
+            products[category].forEach((product, index) => {
+                const productCard = document.createElement('div');
+                productCard.className = 'product-card';
+                productCard.setAttribute('data-category', category);
+                productCard.setAttribute('data-index', index);
+                productCard.innerHTML = `
+                    <div class="product-image">
+                        <img src="${product.image}" alt="${product.name}">
+                    </div>
+                    <h3 class="product-name">${product.name}</h3>
+                    <p class="product-price">${product.price}</p>
+                `;
+                
+                // Add click event to open modal
+                productCard.addEventListener('click', function() {
+                    openModal(category, index);
+                });
+                
+                grid.appendChild(productCard);
+            });
+        }
+
+        // Open modal with product details
+// Open modal with product details
+function openModal(category, index) {
+    const product = products[category][index];
+    const modal = document.getElementById('productModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalDescription = document.getElementById('modalDescription');
+    const modalPricing = document.getElementById('modalPricing');
+    const modalButton = document.getElementById('modalButton');
+
+    // Set modal content
+    modalImage.src = product.image;
+    modalImage.alt = product.name;
+    modalTitle.textContent = product.name;
+    modalDescription.textContent = product.description;
+    
+    // Extract prices from pricing array
+    const prices = product.pricing.map(p => {
+        const match = p.match(/(\d+)\s*(?:HARI|Days|Harga)?\s*[=/]\s*([\d.,]+)/i);
+        if (match) {
+            return {
+                days: match[1],
+                price: match[2].replace(/\./g, '')
+            };
+        }
+        return null;
+    }).filter(p => p !== null);
+
+    // Set pricing with day selector buttons
+    modalPricing.innerHTML = '';
+    
+    if (prices.length > 0) {
+        // Display current price
+        const currentPriceDiv = document.createElement('div');
+        currentPriceDiv.className = 'current-price';
+        currentPriceDiv.id = 'currentPrice';
+        currentPriceDiv.textContent = `Rp. ${parseInt(prices[0].price).toLocaleString('id-ID')},00`;
+        modalPricing.appendChild(currentPriceDiv);
+
+        // Add "Select Days" label
+        const selectLabel = document.createElement('span');
+        selectLabel.className = 'select-days-label';
+        selectLabel.textContent = 'Select Days';
+        modalPricing.appendChild(selectLabel);
+
+        // Create day buttons container
+        const daysContainer = document.createElement('div');
+        daysContainer.className = 'days-buttons';
+        
+        prices.forEach((priceObj, i) => {
+            const dayBtn = document.createElement('button');
+            dayBtn.className = 'day-btn' + (i === 0 ? ' active' : '');
+            dayBtn.textContent = `${priceObj.days} Day${priceObj.days > 1 ? 's' : ''}`;
+            dayBtn.setAttribute('data-price', priceObj.price);
+            dayBtn.setAttribute('data-days', priceObj.days);
+            
+            dayBtn.addEventListener('click', function() {
+                // Remove active class from all buttons
+                document.querySelectorAll('.day-btn').forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                this.classList.add('active');
+                // Update price
+                const newPrice = parseInt(this.getAttribute('data-price'));
+                document.getElementById('currentPrice').textContent = `Rp. ${newPrice.toLocaleString('id-ID')},00`;
+            });
+            
+            daysContainer.appendChild(dayBtn);
+        });
+        
+        modalPricing.appendChild(daysContainer);
+    } else {
+        // For items without day pricing (jual category)
+        const priceDiv = document.createElement('div');
+        priceDiv.className = 'current-price';
+        priceDiv.textContent = product.pricing[0];
+        modalPricing.appendChild(priceDiv);
+    }
+
+    // Set WhatsApp link
+    modalButton.href = product.whatsapp;
+    modalButton.onclick = function(e) {
+        e.stopPropagation();
+        window.open(product.whatsapp, '_blank');
+        return false;
+    };
+
+    // Show modal with animation
+    modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+        // Close modal
+        function closeModal() {
+            const modal = document.getElementById('productModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+// Close modal when clicking outside
+document.getElementById('productModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+        closeModal();
+    }
+});
+   // Prevent modal content from closing when clicked
+        document.getElementById('modalContent').addEventListener('click', function(e) {
+            e.stopPropagation();
+        });
+
+
+        // Close modal with ESC key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+
+        // Smooth scroll untuk navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Tab switching
+        const tabButtons = document.querySelectorAll('.tab-btn');
+        tabButtons.forEach(btn => {
+            btn.addEventListener('click', function() {
+                tabButtons.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                displayProducts(this.dataset.tab);
+            });
+        });
+// Typing effect for tagline
+const taglineText = document.querySelector('.tagline-text');
+const originalText = taglineText.textContent;
+taglineText.textContent = '';
+
+let charIndex = 0;
+function typeText() {
+    if (charIndex < originalText.length) {
+        taglineText.textContent += originalText.charAt(charIndex);
+        charIndex++;
+        setTimeout(typeText, 50); // Kecepatan ketikan (50ms per karakter)
+    }
+}
+        // Button View On Map action
+        document.querySelector('.btn-map').addEventListener('click', function() {
+            window.open('https://api.whatsapp.com/send/?phone=6285117835434&text&type=phone_number&app_absent=0', '_blank');
+        });
+
+// Mulai typing effect setelah halaman load
+window.addEventListener('load', function() {
+    setTimeout(typeText, 500); // Delay 500ms sebelum mulai mengetik
+});
+        // Display personal products by default
+        displayProducts('personal');
+
+        // Terms accordion functionality
+        const termHeaders = document.querySelectorAll('.term-header');
+        termHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const termId = this.dataset.term;
+                const content = document.getElementById(termId);
+                const arrow = this.querySelector('.term-arrow');
+                const item = this.parentElement;
+                
+                // Toggle active class
+                item.classList.toggle('active');
+                
+                // Animate arrow rotation
+                if (item.classList.contains('active')) {
+                    arrow.style.transform = 'rotate(180deg)';
+                    content.style.maxHeight = '2000px';
+                } else {
+                    arrow.style.transform = 'rotate(0deg)';
+                    content.style.maxHeight = '0';
+                }
+            });
+        });
+       // Testimonials data
+const testimonials = [
+    {
+        date: '19/01/2025',
+        text: 'Pelayanan sangat memuaskan, barang lengkap dan terawat dengan baik. Harga terjangkau untuk mahasiswa seperti saya. Pasti sewa lagi!',
+        author: 'Fahmi Customer'
+    },
+    {
+        date: '18/01/2025',
+        text: 'Pengalaman pertama sewa di PendakiPack sangat menyenangkan. Ownernya ramah dan membantu memberikan tips mendaki.',
+        author: 'Rizki Pendaki'
+    },
+    {
+        date: '17/01/2025',
+        text: 'Barang berkualitas dengan harga yang sangat bersaing. Sistem booking mudah dan cepat. Terima kasih PendakiPack!',
+        author: 'Siti Adventurer'
+    },
+    {
+        date: '16/01/2025',
+        text: 'Sudah beberapa kali sewa disini, tidak pernah mengecewakan. Peralatan selalu dalam kondisi prima dan bersih. Top!',
+        author: 'Budi Explorer'
+    },
+    {
+        date: '15/01/2025',
+        text: 'Sewa carrier 60L untuk Semeru, kualitas mantap! Nyaman dipakai dan tidak bikin pegal. Puas banget sama pelayanannya.',
+        author: 'Andi Hiker'
+    },
+    {
+        date: '14/01/2025',
+        text: 'Lokasi strategis, mudah dijangkau. Owner profesional dan responsif. Bakal jadi langganan nih buat pendakian selanjutnya!',
+        author: 'Dewi Mountaineer'
+    }
+];
+
+// Render testimonials with animation
+function renderTestimonials() {
+    const grid = document.getElementById('testimonials-grid');
+    if (!grid) return;
+    
+    grid.innerHTML = '';
+    
+    testimonials.forEach((testimonial, index) => {
+        const card = document.createElement('div');
+        card.className = 'testimonial-card';
+        
+        // Staggered animation delay
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = 'opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1)';
+        
+        card.innerHTML = `
+            <p class="testimonial-date">${testimonial.date}</p>
+            <p class="testimonial-text">${testimonial.text}</p>
+            <p class="testimonial-author">${testimonial.author}</p>
+        `;
+        
+        grid.appendChild(card);
+        
+        // Trigger animation with delay
+        setTimeout(() => {
+            card.style.opacity = '1';
+            card.style.transform = 'translateY(0)';
+            // Remove inline transform after animation completes so CSS hover can work
+            setTimeout(() => {
+                card.style.transform = '';  // <-- INI YANG DITAMBAHKAN
+            }, 600);
+        }, index * 150);
+    });
+}
+// Initialize testimonials when page loads
+document.addEventListener('DOMContentLoaded', renderTestimonials);
+
+// Optional: Refresh animation when scrolling into view
+const observerOptions = {
+    threshold: 0.2,
+    rootMargin: '0px'
+};
+
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            renderTestimonials();
+            observer.unobserve(entry.target);
+        }
+    });
+}, observerOptions);
+
+const testimonialSection = document.querySelector('.trusted-client-section');
+if (testimonialSection) {
+    observer.observe(testimonialSection);
+}
+
+// ============================================
+// HERO INFINITE SLIDER - SEAMLESS CIRCULAR
+// ============================================
+
+let currentSlide = 0;
+const heroSection = document.getElementById('heroSection');
+const slidesContainer = document.getElementById('heroSlidesContainer');
+const originalSlides = Array.from(document.querySelectorAll('.hero-slide'));
+const totalSlides = originalSlides.length;
+let slideInterval;
+
+// Clone first and last slides for infinite effect
+const firstClone = originalSlides[0].cloneNode(true);
+const lastClone = originalSlides[totalSlides - 1].cloneNode(true);
+firstClone.classList.add('clone');
+lastClone.classList.add('clone');
+slidesContainer.appendChild(firstClone);
+slidesContainer.insertBefore(lastClone, slidesContainer.firstChild);
+
+const allSlides = document.querySelectorAll('.hero-slide');
+
+// Touch/Mouse tracking
+let isDragging = false;
+let startPos = 0;
+let currentTranslate = 0;
+let prevTranslate = 0;
+let animationID;
+let slideWidth = window.innerWidth;
+
+// Set initial position (offset by 1 because of cloned slide at start)
+currentSlide = 1;
+currentTranslate = -slideWidth;
+prevTranslate = -slideWidth;
+slidesContainer.style.transform = `translateX(${currentTranslate}px)`;
+
+// Create dots
+const dotsContainer = document.getElementById('heroDots');
+for (let i = 0; i < totalSlides; i++) {
+    const dot = document.createElement('div');
+    dot.className = 'hero-dot' + (i === 0 ? ' active' : '');
+    dot.addEventListener('click', () => goToSlide(i + 1));
+    dotsContainer.appendChild(dot);
+}
+
+function updateDots() {
+    const realIndex = (currentSlide - 1 + totalSlides) % totalSlides;
+    document.querySelectorAll('.hero-dot').forEach((dot, index) => {
+        dot.classList.toggle('active', index === realIndex);
+    });
+}
+
+function setSlidePosition() {
+    slidesContainer.style.transform = `translateX(${currentTranslate}px)`;
+}
+
+function animation() {
+    setSlidePosition();
+    if (isDragging) requestAnimationFrame(animation);
+}
+
+function getPositionX(event) {
+    return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+}
+
+function checkInfiniteLoop() {
+    if (currentSlide === 0) {
+        // Jump from first clone (last image) to last real slide
+        slidesContainer.style.transition = 'none';
+        currentSlide = totalSlides;
+        currentTranslate = currentSlide * -slideWidth;
+        prevTranslate = currentTranslate;
+        setSlidePosition();
+        setTimeout(() => {
+            slidesContainer.style.transition = '';
+        }, 50);
+    } else if (currentSlide === totalSlides + 1) {
+        // Jump from last clone (first image) to first real slide
+        slidesContainer.style.transition = 'none';
+        currentSlide = 1;
+        currentTranslate = currentSlide * -slideWidth;
+        prevTranslate = currentTranslate;
+        setSlidePosition();
+        setTimeout(() => {
+            slidesContainer.style.transition = '';
+        }, 50);
+    }
+}
+
+// Touch/Mouse start
+function touchStart(event) {
+    startPos = getPositionX(event);
+    isDragging = true;
+    animationID = requestAnimationFrame(animation);
+    heroSection.classList.add('grabbing');
+    slidesContainer.classList.add('no-transition');
+}
+
+// Touch/Mouse move
+function touchMove(event) {
+    if (isDragging) {
+        const currentPosition = getPositionX(event);
+        const diff = currentPosition - startPos;
+        currentTranslate = prevTranslate + diff;
+    }
+}
+
+// Touch/Mouse end
+function touchEnd() {
+    isDragging = false;
+    cancelAnimationFrame(animationID);
+    heroSection.classList.remove('grabbing');
+    slidesContainer.classList.remove('no-transition');
+    
+    const movedBy = currentTranslate - prevTranslate;
+    const threshold = slideWidth * 0.2;
+    
+    if (movedBy < -threshold) {
+        currentSlide += 1;
+    } else if (movedBy > threshold) {
+        currentSlide -= 1;
+    }
+    
+    setPositionByIndex();
+    setTimeout(checkInfiniteLoop, 300);
+    resetInterval();
+}
+
+function setPositionByIndex() {
+    currentTranslate = currentSlide * -slideWidth;
+    prevTranslate = currentTranslate;
+    slidesContainer.style.transform = `translateX(${currentTranslate}px)`;
+    updateDots();
+}
+
+function goToSlide(index) {
+    currentSlide = index;
+    setPositionByIndex();
+    setTimeout(checkInfiniteLoop, 300);
+    resetInterval();
+}
+
+function nextSlide() {
+    currentSlide += 1;
+    setPositionByIndex();
+    setTimeout(checkInfiniteLoop, 300);
+}
+
+function resetInterval() {
+    clearInterval(slideInterval);
+    slideInterval = setInterval(nextSlide, 5000);
+}
+
+// Add event listeners
+heroSection.addEventListener('mousedown', touchStart);
+heroSection.addEventListener('mouseup', touchEnd);
+heroSection.addEventListener('mouseleave', () => {
+    if (isDragging) touchEnd();
+});
+heroSection.addEventListener('mousemove', touchMove);
+
+heroSection.addEventListener('touchstart', touchStart);
+heroSection.addEventListener('touchend', touchEnd);
+heroSection.addEventListener('touchmove', touchMove);
+
+heroSection.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
+});
+
+window.addEventListener('resize', () => {
+    slideWidth = window.innerWidth;
+    currentTranslate = currentSlide * -slideWidth;
+    prevTranslate = currentTranslate;
+    setSlidePosition();
+});
+
+slideInterval = setInterval(nextSlide, 5000);
+
+heroSection.addEventListener('mouseenter', () => {
+    clearInterval(slideInterval);
+});
+
+heroSection.addEventListener('mouseleave', () => {
+    if (!isDragging) {
+        slideInterval = setInterval(nextSlide, 5000);
+    }
+});
+
+updateDots();
+
+// Mobile Swipe Functionality for Testimonials - Ultra Smooth Version with Snap
+function initTestimonialSwipe() {
+    const testimonialsGrid = document.getElementById('testimonials-grid');
+    if (!testimonialsGrid || window.innerWidth > 768) return;
+    
+    let isDown = false;
+    let startX;
+    let scrollLeft;
+    let velocity = 0;
+    let lastX = 0;
+    let lastTime = Date.now();
+    let rafId = null;
+    let hasMoved = false;
+    
+    // Smooth momentum scrolling
+    function momentum() {
+        if (Math.abs(velocity) > 0.5) {
+            testimonialsGrid.scrollLeft += velocity;
+            velocity *= 0.95;
+            rafId = requestAnimationFrame(momentum);
+        } else {
+            velocity = 0;
+            snapToNearestCard();
+        }
+    }
+    
+    // Snap to nearest card
+    function snapToNearestCard() {
+        const cards = Array.from(testimonialsGrid.querySelectorAll('.testimonial-card'));
+        const gridRect = testimonialsGrid.getBoundingClientRect();
+        const gridCenter = gridRect.left + gridRect.width / 2;
+        
+        let closestCard = null;
+        let closestDistance = Infinity;
+        
+        cards.forEach(card => {
+            const cardRect = card.getBoundingClientRect();
+            const cardCenter = cardRect.left + cardRect.width / 2;
+            const distance = Math.abs(cardCenter - gridCenter);
+            
+            if (distance < closestDistance) {
+                closestDistance = distance;
+                closestCard = card;
+            }
+        });
+        
+        if (closestCard) {
+            centerCard(closestCard);
+        }
+    }
+    
+    // Center card when clicked or snapped
+    function centerCard(card) {
+        const cardRect = card.getBoundingClientRect();
+        const gridRect = testimonialsGrid.getBoundingClientRect();
+        const cardCenter = cardRect.left + cardRect.width / 2;
+        const gridCenter = gridRect.left + gridRect.width / 2;
+        const scrollAmount = cardCenter - gridCenter;
+        
+        testimonialsGrid.scrollBy({
+            left: scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+    
+    // Add click listeners to all cards
+    const cards = testimonialsGrid.querySelectorAll('.testimonial-card');
+    cards.forEach(card => {
+        card.addEventListener('click', (e) => {
+            // Only center card if there was no significant drag
+            if (!hasMoved) {
+                e.preventDefault();
+                centerCard(card);
+            }
+        });
+    });
+    
+    testimonialsGrid.addEventListener('mousedown', (e) => {
+        isDown = true;
+        hasMoved = false;
+        testimonialsGrid.classList.add('grabbing');
+        startX = e.pageX - testimonialsGrid.offsetLeft;
+        scrollLeft = testimonialsGrid.scrollLeft;
+        lastX = e.pageX;
+        lastTime = Date.now();
+        velocity = 0;
+        if (rafId) cancelAnimationFrame(rafId);
+    });
+    
+    testimonialsGrid.addEventListener('mouseleave', () => {
+        if (isDown) {
+            isDown = false;
+            testimonialsGrid.classList.remove('grabbing');
+            rafId = requestAnimationFrame(momentum);
+        }
+    });
+    
+    testimonialsGrid.addEventListener('mouseup', () => {
+        if (isDown) {
+            isDown = false;
+            testimonialsGrid.classList.remove('grabbing');
+            if (Math.abs(velocity) < 0.5) {
+                snapToNearestCard();
+            } else {
+                rafId = requestAnimationFrame(momentum);
+            }
+        }
+    });
+    
+    testimonialsGrid.addEventListener('mousemove', (e) => {
+        if (!isDown) return;
+        e.preventDefault();
+        hasMoved = true;
+        
+        const currentTime = Date.now();
+        const currentX = e.pageX;
+        const timeDelta = currentTime - lastTime;
+        
+        if (timeDelta > 0) {
+            velocity = (lastX - currentX) / timeDelta * 16;
+        }
+        
+        const x = e.pageX - testimonialsGrid.offsetLeft;
+        const walk = (x - startX) * 1.5;
+        testimonialsGrid.scrollLeft = scrollLeft - walk;
+        
+        lastX = currentX;
+        lastTime = currentTime;
+    });
+    
+    // Touch events with click detection and snap
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let touchScrollLeft = 0;
+    let touchVelocity = 0;
+    let touchLastX = 0;
+    let touchLastTime = Date.now();
+    let touchHasMoved = false;
+    let touchStartTime = 0;
+    let touchedCard = null;
+    
+    testimonialsGrid.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].pageX;
+        touchStartY = e.touches[0].pageY;
+        touchScrollLeft = testimonialsGrid.scrollLeft;
+        touchLastX = e.touches[0].pageX;
+        touchLastTime = Date.now();
+        touchStartTime = Date.now();
+        touchVelocity = 0;
+        touchHasMoved = false;
+        hasMoved = false; // Reset hasMoved untuk touch
+        
+        // Detect which card was touched
+        touchedCard = e.target.closest('.testimonial-card');
+        
+        if (rafId) cancelAnimationFrame(rafId);
+    });
+    
+    testimonialsGrid.addEventListener('touchmove', (e) => {
+        const currentTime = Date.now();
+        const currentX = e.touches[0].pageX;
+        const currentY = e.touches[0].pageY;
+        const timeDelta = currentTime - touchLastTime;
+        
+        // Check if moved significantly
+        const moveX = Math.abs(currentX - touchStartX);
+        const moveY = Math.abs(currentY - touchStartY);
+        
+        if (moveX > 10 || moveY > 10) {
+            touchHasMoved = true;
+            hasMoved = true; // Set hasMoved untuk mencegah click event
+        }
+        
+        if (timeDelta > 0) {
+            touchVelocity = (touchLastX - currentX) / timeDelta * 16;
+        }
+        
+        const x = e.touches[0].pageX;
+        const walk = (touchStartX - x) * 1.2;
+        testimonialsGrid.scrollLeft = touchScrollLeft + walk;
+        
+        touchLastX = currentX;
+        touchLastTime = currentTime;
+    });
+    
+    testimonialsGrid.addEventListener('touchend', (e) => {
+        const touchDuration = Date.now() - touchStartTime;
+        
+        // If it's a quick tap (< 200ms) and didn't move much, treat as click
+        if (!touchHasMoved && touchDuration < 200 && touchedCard) {
+            centerCard(touchedCard);
+        } else if (Math.abs(touchVelocity) > 2) {
+            // Fast swipe - apply momentum then snap
+            velocity = touchVelocity;
+            rafId = requestAnimationFrame(momentum);
+        } else {
+            // Slow drag - snap immediately to nearest card
+            snapToNearestCard();
+        }
+        
+        touchedCard = null;
+        // Reset hasMoved setelah delay singkat
+        setTimeout(() => {
+            hasMoved = false;
+            touchHasMoved = false;
+        }, 100);
+    });
+}
+
+// Initialize swipe on mobile
+if (window.innerWidth <= 768) {
+    initTestimonialSwipe();
+}
+
+window.addEventListener('resize', () => {
+    if (window.innerWidth <= 768) {
+        initTestimonialSwipe();
+    }
+});
+
+</script>
+</body>
+</html>
